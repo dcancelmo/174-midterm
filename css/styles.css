@@ -1,12 +1,15 @@
+body {
+	color: #e7e3d4;
+	background-image: radial-gradient(#3b8be8, #CEE2F9);
+}
+
 #container {
 	margin: 0 auto;
 	max-width: 80%;
-	border: 2px black solid;
 	padding: 20px;
 }
 
 h1 {
-	float: left;
 	margin-top: 0;
 }
 
@@ -20,6 +23,8 @@ main {
 
 figure {
 	margin: 0;
+	background-color: #e7e3d4;
+	padding: 10px;
 }
 
 header {
@@ -31,8 +36,8 @@ footer {
 	padding-bottom: 15px;
 }
 
-.signup {
-	float: right;
+input {
+	margin-top: 5px;
 }
 
 .left-align {
@@ -41,4 +46,18 @@ footer {
 
 .right-align {
 	float: right;
+}
+
+.box {
+	background-color: #c4dbf6;
+	padding: 20px;
+	border: 3px solid #b23850;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #b23850;
+}
+
+a.box:hover {
+	color: #8590aa;
+	text-decoration: underline;
 }
