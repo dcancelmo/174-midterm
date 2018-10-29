@@ -1,0 +1,44 @@
+#container {
+	margin: 0 auto;
+	max-width: 80%;
+	border: 2px black solid;
+	padding: 20px;
+}
+
+h1 {
+	float: left;
+	margin-top: 0;
+}
+
+img {
+	width: 100%;
+}
+
+main {
+	clear: both;
+}
+
+figure {
+	margin: 0;
+}
+
+header {
+	padding-bottom: 15px;
+}
+
+footer {
+	padding-top: 15px; 
+	padding-bottom: 15px;
+}
+
+.signup {
+	float: right;
+}
+
+.left-align {
+	float: left;
+}
+
+.right-align {
+	float: right;
+}
