@@ -1,20 +1,18 @@
 body {
-	color: #e7e3d4;
-	background-image: radial-gradient(#3b8be8, #CEE2F9);
+	color: #b23850;
+	background-color: #3b8be8;
+	background-image: radial-gradient(#CEE2F9, #3b8be8);
 }
 
 #container {
 	margin: 0 auto;
 	max-width: 80%;
 	padding: 20px;
+	backgro
 }
 
 h1 {
 	margin-top: 0;
-}
-
-img {
-	width: 100%;
 }
 
 main {
@@ -31,13 +29,16 @@ header {
 	padding-bottom: 15px;
 }
 
-footer {
-	padding-top: 15px; 
-	padding-bottom: 15px;
-}
-
 input {
 	margin-top: 5px;
+}
+
+p {
+	margin-left: 30px;
+}
+
+h3 {
+	margin-left: 15px;
 }
 
 .left-align {
@@ -46,6 +47,11 @@ input {
 
 .right-align {
 	float: right;
+}
+
+.normal {
+	text-decoration: none;
+	color: #b23850;
 }
 
 .box {
