@@ -2,8 +2,16 @@
 	Author: Daniel Cancelmo
 	
 	Color scheme "Snowy Yet Warm": https://blog.visme.co/website-color-schemes/
+
+	CSS Architecture: SMACSS
+
+	Table of Contents
+		BASE
+		LAYOUT
+		MODULE
 */
 
+/*____________ BASE ____________*/
 body {
 	color: #b23850;
 	background-color: #3b8be8;
@@ -11,23 +19,12 @@ body {
 	font-family: 'PT Sans', sans-serif;
 }
 
-#container {
-	margin: 0 auto;
-	max-width: 80%;
-	padding: 20px;
-	/*background-color: #8590aa;*/
-	background-color: #c4dbf6;
-	border: 4px solid #e7e3d4;
-	border-radius: 10px;
-	color: black;
+h1 {
+	margin-top: 0;
 }
 
 h1, h2, h3 {
 	font-family: 'Alegreya Sans', sans-serif;
-}
-
-h1 {
-	margin-top: 0;
 }
 
 h2, h3 {
@@ -39,14 +36,6 @@ h2, h3 {
 
 main {
 	clear: both;
-	line-height: 1.5em;
-	display: grid;
-	grid-template-columns: 2fr 1fr;
-	grid-column-gap: 30px;
-}
-
-aside {
-	align-content: flex-end;
 }
 
 figure {
@@ -59,18 +48,38 @@ header {
 	padding-bottom: 15px;
 }
 
-table, tr, th, td {
-	border: 1px solid black;
+footer {
+	padding-top: 15px; 
+	padding-bottom: 15px;
 }
 
 input {
 	margin-top: 5px;
 }
 
+table, tr, th, td {
+	border: 1px solid black;
+}
+
 p {
 	margin-left: 30px;
 }
 
+/*____________ LAYOUT ____________*/
+#index, #container {
+	margin: 0 auto;
+	max-width: 80%;
+	padding: 20px;
+}
+
+#container {
+	background-color: #c4dbf6;
+	border: 4px solid #e7e3d4;
+	border-radius: 10px;
+	color: black;
+}
+
+/*____________ MODULE ____________*/
 .left-align {
 	float: left;
 }
@@ -79,9 +88,24 @@ p {
 	float: right;
 }
 
+.hero {
+	background-color: #e7e3d4;
+}
+
+.hero img {
+	width: 100%;
+}
+
 .normal {
 	text-decoration: none;
 	color: #b23850;
+}
+
+.fpattern {
+	line-height: 1.5em;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-column-gap: 30px;
 }
 
 .box {
