@@ -93,7 +93,7 @@ p {
 	color: #b23850;
 }
 
-a.box:hover {
+a.box:hover, a.link:hover {
 	color: #8590aa;
 	text-decoration: underline;
 }
