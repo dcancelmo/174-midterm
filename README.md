@@ -6,6 +6,10 @@ Midterm project by Daniel Cancelmo
 
 [Source for information](https://en.wikipedia.org/wiki/Rochester,_New_York)
 
+## Content/Subject
+
+This webstie contains information decribing the City of Rochester. I wnated the index to merely act as a landing page to grab attention and direct the user to learn more (and/or signup for the newsletter). The details page has a traditinal "main and aside" format however each section has its own distinct aside rather thna one long aside and one long main.
+
 ## Information Architecture
 
 ### Ontology
@@ -70,6 +74,3 @@ I selected PT Sans to be the font for the majority of the site. However any head
 I used the SMACSS architecture. All styles are stored in styles.css
 
 The sections used are Base, Layout, and Module in that order. The other sections of SMACSS were not needed for this CSS file.
-
-## Content
-
