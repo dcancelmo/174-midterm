@@ -1,22 +1,12 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
-		<meta charset="UTF-8">
-		<title>Rochester-Details</title>
-		<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-	</head>
+	<?php 
+		$title = "Rochester - Details"; 
+		include 'inc/head.php';
+	?>
 	<body>
 		<div id="container">
-			<header>
-				<h1 class="left-align box"><a href="index.html" class="normal">Rochester, NY</a></h1>
-				<form id="newsletter" class="right-align box">
-					Sign-up for our newsletter:<br>
-					<input type="text" name="email">
-					<input type="submit" value="Submit">
-				</form>
-			</header>
+			<?php include 'inc/header.php'; ?>
 			<main class="fpattern">
 				<section>
 					<h2>Overview</h2>
