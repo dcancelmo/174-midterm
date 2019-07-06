@@ -8,7 +8,7 @@ Midterm project by Daniel Cancelmo
 
 ## Content/Subject
 
-This webstie contains information decribing the City of Rochester. I wnated the index to merely act as a landing page to grab attention and direct the user to learn more (and/or signup for the newsletter). The details page has a traditinal "main and aside" format however each section has its own distinct aside rather thna one long aside and one long main.
+This webstie contains information decribing the City of Rochester. I wanted the index to merely act as a landing page to grab attention and direct the user to learn more (and/or signup for the newsletter). The details page has a traditinal "main and aside" format however each section has its own distinct aside rather thna one long aside and one long main.
 
 ## Information Architecture
 
